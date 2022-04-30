@@ -1,0 +1,291 @@
+.container {
+  max-width: 1200px;
+}
+
+.welcome p,
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+.welcome p span {
+  font-weight: bold;
+}
+
+.welcome p span span {
+  color: #0061a3;
+  font-weight: 500;
+}
+
+.container .menu .top-menu .right {
+  width: 130px;
+}
+
+.container .menu .right .social-media img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.container .menu .right .country img,
+.container .menu .right .country i {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.list i {
+  color: #f30000;
+  font-size: 30px;
+}
+
+.container .menu nav {
+  background-color: red;
+  height: 36px;
+}
+
+.container .menu nav .line {
+  width: 30px;
+  height: 1px;
+  background-color: white;
+  transform: rotate(-90deg);
+}
+
+.top-section .container .first h4 {
+  font-size: 14px;
+}
+
+.top-section .container .first a {
+  font-size: 13px;
+}
+
+.top-section .container .row .second p {
+  color: #5f5f5f;
+  text-align: justify;
+  font-size: 14px;
+}
+
+.top-section .container .row .col-3 {
+  height: 135px;
+}
+
+nav .right {
+  height: 100%;
+  width: 200px;
+  background-color: #0061a3;
+}
+
+/* lottary section */
+.lottery .container .row .group-one img,
+.lottery-online .container .group-one img {
+  width: 20px;
+  height: 20px;
+}
+
+.lottery .top .group-one h5 {
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.lottery .top .group-two p {
+  color: #13902a;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.lottery .bottom {
+  background-color: #0061a3;
+  height: 55px;
+}
+
+.lottery .bottom button {
+  width: 135px;
+  height: 30px;
+}
+
+.lottery-online .title {
+  background-color: red;
+  height: 35px;
+}
+
+/* lottary online */
+.lottery-online .container h5 {
+  font-size: 15px;
+}
+
+.lottery-online .container .col .img-container > img {
+  width: 120px;
+  height: 120px;
+}
+
+.lottery-online .time i,
+.lottery-online .time p {
+  color: #0061a3;
+}
+
+.lottery-online .row .border > i {
+  position: absolute;
+  top: 4%;
+  left: 86%;
+}
+
+/* Card Section */
+.card-section .container .header {
+  background-color: red;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-section .container .items p span {
+  color: #0061a3;
+}
+.card-section .container .row .col .card-text .rounded-circle {
+  background-color: red;
+  width: 25px;
+  height: 25px;
+  border-radius: 25px;
+}
+
+.card-section .container .row .col button {
+  width: 220px;
+  height: 45px;
+}
+
+.card-section .right .first-para p:nth-child(2) {
+  color: #13902a;
+}
+
+.card-section .right .para .row .col-9 > div img {
+  width: 25px;
+  height: 25px;
+}
+
+.card-section .right .para .row .col-9 p:nth-child(3) {
+  color: #5f5f5f;
+}
+
+/* qusetion section */
+
+.qusetions .question-block .question-text p {
+  color: #0061a3;
+  cursor: pointer;
+}
+
+.qusetions .question-block .question-text i {
+  color: #5f5f5f;
+}
+
+.qusetions .question-block .hor-line {
+  width: 100%;
+  height: 1px;
+  background-color: #e0e0e0;
+}
+
+/* footer */
+.footer {
+  background: linear-gradient(
+    0deg,
+    #e0e0e0 0%,
+    rgba(224, 224, 224, 0.5) 43.63%,
+    rgba(225, 225, 225, 0.28) 75.48%,
+    #ffffff 106.24%
+  );
+}
+
+.footer > img {
+  position: absolute;
+  top: -30px;
+  left: 0;
+  z-index: -10;
+}
+
+.footer .second-social img {
+  width: 35px;
+  height: 35px;
+  margin-right: 5px;
+}
+
+.footer .second-social .caption p:nth-child(2) {
+  font-size: 12px;
+  color: #5f5f5f;
+}
+
+.paragraphs p {
+  font-size: 14px;
+}
+
+.payment .cards img {
+  width: 45px;
+}
+
+.security img {
+  width: 60px;
+}
+
+i {
+  cursor: pointer;
+}
+
+img {
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .menu .top-menu .left img {
+    margin-left: 14%;
+    width: 70%;
+  }
+
+  .welcome p {
+    font-size: 15px;
+  }
+
+  .top-section .container {
+    width: 90%;
+  }
+  .lottery h3 {
+    font-size: 20px;
+  }
+  #man {
+    width: 100%;
+  }
+  .footer {
+    background: transparent;
+  }
+
+  .footer .col {
+    width: 100%;
+  }
+
+  .footer > img {
+    top: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .lottery-online .container .row .border {
+    width: 100%;
+  }
+}
+
+@media (max-width: 390px) {
+  .lottery .top .group-two p {
+    font-size: 18px;
+  }
+
+  .lottery .top .group-one h5 {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 320px) {
+  .top-section .container {
+    width: 100%;
+  }
+  .lottery .container {
+    padding: 0;
+    width: 100%;
+  }
+}
